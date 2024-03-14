@@ -1,0 +1,81 @@
+<style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Estilos para containers */
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+        }
+        
+        .container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .container label {
+            margin-bottom: 10px;
+        }
+        
+        .container input,
+        .container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        
+        .container button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .container button:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Estilos para o menu */
+        .menu-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .menu-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .menu-container li {
+            margin-bottom: 10px;
+        }
+        
+        .menu-container li ul {
+            margin-top: 5px;
+        }
+        
+        .menu-container li ul li {
+            margin-left: 20px;
+        }
+    </style>
